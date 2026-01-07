@@ -18,7 +18,7 @@ export default function BerandaPage() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
           <div className="md:w-1/2 space-y-6">
             <h1 className="text-6xl font-black text-[#1a3a2a] leading-tight">
-              Satu Platform, <br/> Semua Event Kampus Unuha
+              Satu Platform, <br/> Semua Event Kampus UNUHA
             </h1>
             <p className="text-gray-600 text-xl max-w-lg">
               Temukan, Ikuti, Publikasikan Event Kampus dengan Mudah & Cepat
@@ -95,7 +95,7 @@ export default function BerandaPage() {
       <footer className="bg-[#0b1b11] text-white pt-20 pb-10">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-16 pb-16 border-b border-white/5">
           <div className="space-y-6">
-             <h2 className="text-3xl font-black italic tracking-tighter text-white">Unuha Events</h2>
+             <h2 className="text-3xl font-black italic tracking-tighter text-white">UNUHA Events</h2>
              <p className="text-sm text-gray-400 leading-relaxed font-medium">
                Platform informasi event kampus untuk kemudahan akses info, pendaftaran, dan publikasi event mahasiswa Universitas Nurul Huda.
              </p>

@@ -5,7 +5,6 @@ import Link from 'next/link';
 export default function UploadEventPage() {
   const [imagePreview, setImagePreview] = useState<string | null>(null);
 
-  // Fungsi untuk melihat pratinjau gambar yang diunggah
   const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) {

@@ -48,7 +48,6 @@ export default function ProfilePage() {
             <div className="text-center md:text-left z-10">
               <div className="flex flex-col md:flex-row items-center gap-3">
                 <h1 className="text-4xl font-black text-white">{user.name}</h1>
-                <span className="bg-green-500 text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest border border-green-400">Verified</span>
               </div>
               <p className="text-green-300 font-medium text-lg mt-1">{user.email}</p>
               <p className="text-white/60 text-sm mt-2 font-mono tracking-widest">NIM: {user.nim}</p>

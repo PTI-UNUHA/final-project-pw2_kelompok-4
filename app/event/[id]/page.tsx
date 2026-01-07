@@ -33,7 +33,7 @@ export default function DetailEventPage() {
       category: "Seminar",
       title: "Seminar Kewirausahaan",
       date: "Rabu, 5 Juni 2024",
-      location: "Offline - Universitas Diponegoro",
+      location: "Offline - Universitas Nurul Huda",
       price_early: "Gratis",
       price_reg: "Gratis",
       desc: "Strategi jitu mengelola bisnis kecil agar tumbuh menjadi skala nasional.",
