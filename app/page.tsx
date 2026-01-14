@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function BerandaPage() {
     const popularEvents = [
@@ -58,10 +59,11 @@ export default function BerandaPage() {
 
                     <div className="md:w-1/2 relative flex justify-end">
                         <div className="w-full max-w-[550px] h-[380px] bg-green-100 rounded-[60px] overflow-hidden relative shadow-2xl">
-                            <img
-                                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1000"
-                                alt="Students"
-                                className="w-full h-full object-cover"
+                            <Image
+                                src="/kamapus.jpeg"
+                                alt="header image"
+                                fill
+                                className="object-cover object-center w-full h-full"
                             />
                             <div className="absolute inset-0 bg-gradient-to-tr from-green-600/20 to-transparent"></div>
                         </div>
@@ -180,7 +182,7 @@ export default function BerandaPage() {
                         <p className="text-sm text-gray-400 font-bold">📧 unuha.ac.id</p>
                     </div>
                 </div>
-                <p className="text-center text-xs text-gray-500 mt-8">© 2024 Unuha Events. All rights reserved.</p>
+                <p className="text-center text-xs text-gray-500 mt-8">© 2026 Unuha Events. All rights reserved.</p>
             </footer>
         </main>
     );
